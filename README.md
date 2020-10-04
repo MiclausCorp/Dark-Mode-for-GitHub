@@ -8,7 +8,7 @@
 
 Dark Mode for GitHub does as its name says, it enables a Dark Appearance for github.com
 
-Available Intel & Apple Silicon Macs on macOS Big Sur
+Available for Intel and Apple Silicon Macs on macOS Big Sur
 
 ## 🕓 Releases
 - [x] 1.0 - Initial Release - Oct 4 2020
