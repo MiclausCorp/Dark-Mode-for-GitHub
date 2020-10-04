@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0-brightgreen)](releases/) [![Build Type](https://img.shields.io/badge/Build%20Type-Release-brightgreen)]()
 
 
-<img src="/Assets/Demo/Demo Screenshot.png" width="30%"/>
+<img src="/Assets/Demo Screenshot.png" width="30%"/>
 
 Dark Mode for GitHub does as its name says, it enables a Dark Appearance for github.com
 
