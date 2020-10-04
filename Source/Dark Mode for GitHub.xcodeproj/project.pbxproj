@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D465F5F252A017500D75E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D465F5E252A017500D75E65 /* AppDelegate.swift */; };
+		1D465F62252A017500D75E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F60252A017500D75E65 /* Main.storyboard */; };
+		1D465F64252A017500D75E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D465F63252A017500D75E65 /* ViewController.swift */; };
+		1D465F66252A017600D75E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F65252A017600D75E65 /* Assets.xcassets */; };
+		1D465F6D252A017600D75E65 /* Dark Mode for GitHub Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D465F6C252A017600D75E65 /* Dark Mode for GitHub Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1D465F72252A017600D75E65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D465F71252A017600D75E65 /* Cocoa.framework */; };
+		1D465F75252A017600D75E65 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D465F74252A017600D75E65 /* SafariWebExtensionHandler.swift */; };
+		1D465F78252A017600D75E65 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F77252A017600D75E65 /* _locales */; };
+		1D465F7A252A017600D75E65 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F79252A017600D75E65 /* images */; };
+		1D465F7C252A017600D75E65 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F7B252A017600D75E65 /* manifest.json */; };
+		1D465F7E252A017600D75E65 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F7D252A017600D75E65 /* background.js */; };
+		1D465F80252A017600D75E65 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F7F252A017600D75E65 /* content.js */; };
+		1D465F82252A017600D75E65 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F81252A017600D75E65 /* popup.html */; };
+		1D465F84252A017600D75E65 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F83252A017600D75E65 /* popup.css */; };
+		1D465F86252A017600D75E65 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1D465F85252A017600D75E65 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D465F6E252A017600D75E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D465F52252A017500D75E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D465F6B252A017600D75E65;
+			remoteInfo = "Dark Mode for GitHub Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D465F8E252A017600D75E65 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D465F6D252A017600D75E65 /* Dark Mode for GitHub Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D465F5A252A017500D75E65 /* Dark Mode for GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Mode for GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D465F5D252A017500D75E65 /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
+		1D465F5E252A017500D75E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D465F61252A017500D75E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D465F63252A017500D75E65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D465F65252A017600D75E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D465F67252A017600D75E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D465F6C252A017600D75E65 /* Dark Mode for GitHub Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dark Mode for GitHub Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D465F71252A017600D75E65 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D465F74252A017600D75E65 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1D465F77252A017600D75E65 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		1D465F79252A017600D75E65 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1D465F7B252A017600D75E65 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1D465F7D252A017600D75E65 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		1D465F7F252A017600D75E65 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		1D465F81252A017600D75E65 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		1D465F83252A017600D75E65 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		1D465F85252A017600D75E65 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		1D465F87252A017600D75E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D465F88252A017600D75E65 /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D465F57252A017500D75E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D465F69252A017600D75E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D465F72252A017600D75E65 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D465F51252A017500D75E65 = {
+			isa = PBXGroup;
+			children = (
+				1D465F5C252A017500D75E65 /* Dark Mode for GitHub */,
+				1D465F73252A017600D75E65 /* Dark Mode for GitHub Extension */,
+				1D465F70252A017600D75E65 /* Frameworks */,
+				1D465F5B252A017500D75E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D465F5B252A017500D75E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D465F5A252A017500D75E65 /* Dark Mode for GitHub.app */,
+				1D465F6C252A017600D75E65 /* Dark Mode for GitHub Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D465F5C252A017500D75E65 /* Dark Mode for GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				1D465F5D252A017500D75E65 /* App.entitlements */,
+				1D465F5E252A017500D75E65 /* AppDelegate.swift */,
+				1D465F60252A017500D75E65 /* Main.storyboard */,
+				1D465F63252A017500D75E65 /* ViewController.swift */,
+				1D465F65252A017600D75E65 /* Assets.xcassets */,
+				1D465F67252A017600D75E65 /* Info.plist */,
+			);
+			path = "Dark Mode for GitHub";
+			sourceTree = "<group>";
+		};
+		1D465F70252A017600D75E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D465F71252A017600D75E65 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D465F73252A017600D75E65 /* Dark Mode for GitHub Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D465F74252A017600D75E65 /* SafariWebExtensionHandler.swift */,
+				1D465F87252A017600D75E65 /* Info.plist */,
+				1D465F88252A017600D75E65 /* Extension.entitlements */,
+				1D465F76252A017600D75E65 /* Resources */,
+			);
+			path = "Dark Mode for GitHub Extension";
+			sourceTree = "<group>";
+		};
+		1D465F76252A017600D75E65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D465F77252A017600D75E65 /* _locales */,
+				1D465F79252A017600D75E65 /* images */,
+				1D465F7B252A017600D75E65 /* manifest.json */,
+				1D465F7D252A017600D75E65 /* background.js */,
+				1D465F7F252A017600D75E65 /* content.js */,
+				1D465F81252A017600D75E65 /* popup.html */,
+				1D465F83252A017600D75E65 /* popup.css */,
+				1D465F85252A017600D75E65 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D465F59252A017500D75E65 /* Dark Mode for GitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D465F8F252A017600D75E65 /* Build configuration list for PBXNativeTarget "Dark Mode for GitHub" */;
+			buildPhases = (
+				1D465F56252A017500D75E65 /* Sources */,
+				1D465F57252A017500D75E65 /* Frameworks */,
+				1D465F58252A017500D75E65 /* Resources */,
+				1D465F8E252A017600D75E65 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D465F6F252A017600D75E65 /* PBXTargetDependency */,
+			);
+			name = "Dark Mode for GitHub";
+			productName = "Dark Mode for GitHub";
+			productReference = 1D465F5A252A017500D75E65 /* Dark Mode for GitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D465F6B252A017600D75E65 /* Dark Mode for GitHub Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D465F8B252A017600D75E65 /* Build configuration list for PBXNativeTarget "Dark Mode for GitHub Extension" */;
+			buildPhases = (
+				1D465F68252A017600D75E65 /* Sources */,
+				1D465F69252A017600D75E65 /* Frameworks */,
+				1D465F6A252A017600D75E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dark Mode for GitHub Extension";
+			productName = "Dark Mode for GitHub Extension";
+			productReference = 1D465F6C252A017600D75E65 /* Dark Mode for GitHub Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D465F52252A017500D75E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1D465F59252A017500D75E65 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1D465F6B252A017600D75E65 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 1D465F55252A017500D75E65 /* Build configuration list for PBXProject "Dark Mode for GitHub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D465F51252A017500D75E65;
+			productRefGroup = 1D465F5B252A017500D75E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D465F59252A017500D75E65 /* Dark Mode for GitHub */,
+				1D465F6B252A017600D75E65 /* Dark Mode for GitHub Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D465F58252A017500D75E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D465F66252A017600D75E65 /* Assets.xcassets in Resources */,
+				1D465F62252A017500D75E65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D465F6A252A017600D75E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D465F7E252A017600D75E65 /* background.js in Resources */,
+				1D465F84252A017600D75E65 /* popup.css in Resources */,
+				1D465F82252A017600D75E65 /* popup.html in Resources */,
+				1D465F7A252A017600D75E65 /* images in Resources */,
+				1D465F7C252A017600D75E65 /* manifest.json in Resources */,
+				1D465F78252A017600D75E65 /* _locales in Resources */,
+				1D465F80252A017600D75E65 /* content.js in Resources */,
+				1D465F86252A017600D75E65 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D465F56252A017500D75E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D465F64252A017500D75E65 /* ViewController.swift in Sources */,
+				1D465F5F252A017500D75E65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D465F68252A017600D75E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D465F75252A017600D75E65 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D465F6F252A017600D75E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D465F6B252A017600D75E65 /* Dark Mode for GitHub Extension */;
+			targetProxy = 1D465F6E252A017600D75E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D465F60252A017500D75E65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D465F61252A017500D75E65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D465F89252A017600D75E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D465F8A252A017600D75E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1D465F8C252A017600D75E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Dark Mode for GitHub Extension/Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84VP7KSHNB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Dark Mode for GitHub Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariusinc.Dark-Mode-for-GitHub-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D465F8D252A017600D75E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Dark Mode for GitHub Extension/Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84VP7KSHNB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Dark Mode for GitHub Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariusinc.Dark-Mode-for-GitHub-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1D465F90252A017600D75E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dark Mode for GitHub/App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84VP7KSHNB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Dark Mode for GitHub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariusinc.Dark-Mode-for-GitHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D465F91252A017600D75E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dark Mode for GitHub/App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84VP7KSHNB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Dark Mode for GitHub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dariusinc.Dark-Mode-for-GitHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D465F55252A017500D75E65 /* Build configuration list for PBXProject "Dark Mode for GitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D465F89252A017600D75E65 /* Debug */,
+				1D465F8A252A017600D75E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D465F8B252A017600D75E65 /* Build configuration list for PBXNativeTarget "Dark Mode for GitHub Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D465F8C252A017600D75E65 /* Debug */,
+				1D465F8D252A017600D75E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D465F8F252A017600D75E65 /* Build configuration list for PBXNativeTarget "Dark Mode for GitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D465F90252A017600D75E65 /* Debug */,
+				1D465F91252A017600D75E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D465F52252A017500D75E65 /* Project object */;
+}

@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Dark Mode for GitHub Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Dark Appearance for GitHub",
+        "description": "Description of what the extension does."
+    }
+}
