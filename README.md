@@ -21,13 +21,13 @@ Language                     files          blank        comment           code
 XML                              5              0              3            249
 JSON                             6              6              0            149
 Swift                            3             21             22             55
-Markdown                         1             14              0             32
 JavaScript                       3              3              7             30
+Markdown                         1              9              0             26
 CSS                              1              3              1             14
 HTML                             1              0              0             14
-Bourne Shell                     1              2              3             10
+Shell                            1              2              3             10
 -------------------------------------------------------------------------------
-SUM:                            21             49             36            553
+SUM:                            21             44             36            547
 -------------------------------------------------------------------------------
 ```
 ## 📄 License (Applies for this too)
