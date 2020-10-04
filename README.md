@@ -7,9 +7,9 @@
 <img src="/Assets/Demo Screenshot.png" width="85%"/>
 </p>
 
-Dark Mode for GitHub does as its name says, it enables a Dark Appearance for github.com
+Dark Mode for GitHub does as its name says, it enables a Dark Appearance for [github.com](https://github.com/)
 
-Available for Intel and Apple Silicon Macs on macOS Big Sur
+[Available for Intel and Apple Silicon Macs on macOS Big Sur](/releases)
 
 ## 🕓 Releases
 - [x] 1.0 - Initial Release - Oct 4 2020
