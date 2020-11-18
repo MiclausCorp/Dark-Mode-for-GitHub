@@ -1,7 +1,7 @@
 <img src="/Assets/Dark Mode for GitHub.png" width="8%" align="left"/> <h1>Dark Mode for GitHub</h1>
 
 
-[![Version](https://img.shields.io/badge/Version-1.0-brightgreen)](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0) [![Build Type](https://img.shields.io/badge/Build%20Type-Release-brightgreen)]()
+[![Version](https://img.shields.io/badge/Version-1.0.2-brightgreen)](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0) [![Build Type](https://img.shields.io/badge/Build%20Type-Release-brightgreen)]()
 
 <p align="center">
 <img src="/Assets/Demo Screenshot.png" width="85%"/>
@@ -9,28 +9,32 @@
 
 Dark Mode for GitHub does as its name says, it is a Safari Extension that enables a Dark Appearance for [github.com](https://github.com/)
 
-[Available for Intel and Apple Silicon Macs on macOS Big Sur](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0)
+[Available for Intel and Apple Silicon Macs on macOS Big Sur](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0.2)
 
 ## 🕓 Releases
 - [x] 1.0 - Initial Release - Oct 4 2020
+
+- [x] 1.0.1 - Fixes for the latest GitHub Changes - Oct 24 2020
+
+- [x] 1.0.2 - Fixes for the latest GitHub Changes - Nov 18 2020
 
 ## 📊 Stats
 ```
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-XML                              5              0              3            249
+XML                              7              0              3            265
 JSON                             6              6              0            149
 Swift                            3             21             22             55
+Markdown                         2             19              0             41
 JavaScript                       3              3              7             30
-Markdown                         1              9              0             26
 CSS                              1              3              1             14
 HTML                             1              0              0             14
 Shell                            1              2              3             10
 -------------------------------------------------------------------------------
-SUM:                            21             44             36            547
+SUM:                            24             54             36            578
 -------------------------------------------------------------------------------
 ```
-## 📄 License (Applies for this too)
-[Darius Inc. Software License](https://gist.githubusercontent.com/mdarius13/be97312039e65a4334d20b86f13db955/raw)
+## 📄 License
+[Darius Inc. Software License](License.md)
 
