@@ -9,7 +9,7 @@
 
 Dark Mode for GitHub does as its name says, it is a Safari Extension that enables a Dark Appearance for [github.com](https://github.com/)
 
-[Available for Intel and Apple Silicon Macs on macOS Big Sur](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0.2)
+[Available for Intel and Apple Silicon Macs on macOS Big Sur](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0.3)
 
 ## 🕓 Releases
 - [x] 1.0 - Initial Release - Oct 4 2020
