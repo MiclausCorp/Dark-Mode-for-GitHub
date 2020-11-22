@@ -1,7 +1,7 @@
 <img src="/Assets/Dark Mode for GitHub.png" width="8%" align="left"/> <h1>Dark Mode for GitHub</h1>
 
 
-[![Version](https://img.shields.io/badge/Version-1.0.2-brightgreen)](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/tag/1.0) [![Build Type](https://img.shields.io/badge/Build%20Type-Release-brightgreen)]()
+[![Version](https://img.shields.io/badge/Version-1.0.3-brightgreen)](https://github.com/mdarius13/Dark-Mode-for-GitHub/releases/) [![Build Type](https://img.shields.io/badge/Build%20Type-Release-brightgreen)]()
 
 <p align="center">
 <img src="/Assets/Demo Screenshot.png" width="85%"/>
@@ -17,6 +17,8 @@ Dark Mode for GitHub does as its name says, it is a Safari Extension that enable
 - [x] 1.0.1 - Fixes for the latest GitHub Changes - Oct 24 2020
 
 - [x] 1.0.2 - Fixes for the latest GitHub Changes - Nov 18 2020
+
+- [x] 1.0.3 - Fixes for the latest GitHub Changes - Nov 22 2020
 
 ## 📊 Stats
 ```
