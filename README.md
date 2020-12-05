@@ -22,6 +22,7 @@ Dark Mode for GitHub does as its name says, it is a Safari Extension that enable
 
 - [x] 1.0.4 - Fixes for the latest GitHub Changes - Dec 4 2020
 
+- [x] 1.0.5 - Fixes for the latest GitHub Changes - Dec 5 2020
 
 ## 📊 Stats
 ```
@@ -31,13 +32,13 @@ Language                     files          blank        comment           code
 XML                              8              0              3            357
 JSON                             6              6              0            149
 Swift                            3             21             22             55
-Markdown                         2             22              0             43
+Markdown                         2             22              0             44
 JavaScript                       3              3              7             30
 CSS                              1              3              1             14
 HTML                             1              0              0             14
 Shell                            1              2              3             10
 -------------------------------------------------------------------------------
-SUM:                            25             57             36            672
+SUM:                            25             57             36            673
 -------------------------------------------------------------------------------
 ```
 ## 📄 License
